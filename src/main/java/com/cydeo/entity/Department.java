@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
+
 public class Department {
 
     @Id

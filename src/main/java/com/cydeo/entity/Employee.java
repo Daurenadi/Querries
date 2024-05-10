@@ -4,6 +4,7 @@ import com.cydeo.enums.Gender;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -13,7 +14,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-public class employee extends BaseEntity {
+@ToString
+public class Employee extends BaseEntity {
 
     private String firstName;
     private String lastName;
